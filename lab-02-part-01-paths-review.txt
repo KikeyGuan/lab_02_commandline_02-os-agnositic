@@ -14,7 +14,7 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-cd ..
+cd filename
 
 ==========
 2. Write the command that you would use to change to your home directory.
@@ -32,19 +32,19 @@ cd desktop
 4. What's the absolute path to your home directory?
 ----------
 
-cd ~
+/c/Users/user
 
 ==========
 5. What's the absolute path to your Desktop directory?
 ----------
 
-cd desktop
+/c/Users/user/Desktop
 
 ==========
 6. What's the absolute path to your Desktop directory?
 ----------
 
-cd desktop
+/c/Users/user/Desktop
 
 ==========
 7. If you're in your home directory, what's the relative path to your Desktop directory?
@@ -62,12 +62,15 @@ mkdir desktop/stuff
 ----------
 
 mkdir desktop/morestuff
+or to put folder in a folder from the root directory if that's what question is asking
+mkdir desktop/stuff/morestuff
 
 ==========
 10. If you're in your Desktop directory, how would you create a new directory on your desktop called even-more-stuff?  Write your command below.
 ----------
 
 mkdir desktop/evenmorestuff
+mkdir desktop/stuff/morestuff/evenmorestuff
 
 ==========
 11. If you're in your home directory, how would you change to the directory right above it using a relative path (it should bring you to /Users)?  Write your command below.
